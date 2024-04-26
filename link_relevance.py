@@ -84,7 +84,6 @@ def beautiful_soup(df_links):
     return link_text
 df_links = pd.read_csv('/Users/anastasiabelaeva/Desktop/Postgraduate/данные/CT/Автоматизация/df_links.csv')
 df_links.dropna(inplace=True)
-#df_links = beautiful_soup(df_links)
 
 #разбиение базы запросов на тест и трейн
 def split_links(df_links):
